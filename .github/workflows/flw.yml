@@ -18,6 +18,7 @@ jobs:
         FL_CASH: ${{ secrets.FL_CASH }}
         FL_DHCASH: ${{ secrets.FL_DHCASH }}
         FL_flwydBODY: ${{ secrets.FL_flwydBODY }}
+        TZ: Asia/shanghai
         
     steps:
       - name: Checkout
